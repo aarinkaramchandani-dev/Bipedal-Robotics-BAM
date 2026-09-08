@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+uv.lock
+# made by bam_pipeline.py, rebuilt every run
+results/data_processed/
+# made by record_sts3215.py --calibrate, different on every rig
+sts3215_calibration.json
