@@ -19,3 +19,9 @@ A week-by-week record of the project (Georgia Tech VIP, Fall 2026).
 
 - Set up BAM and ran a simulation: one STS3215 lifting a 100 g weight on a 15 cm arm, moving between target angles.
 - Added a live viewer to watch it move. The servo acted like a real one: it took time to reach each target, overshot a little, and sagged under the weight.
+
+## Week 4: Planning the test rig (Oct 4 and 5)
+
+- Looked at how the BAM authors built their test rig (arm lengths, weights, mounting).
+- Wrote a script that tries many arm-length and weight combinations on the simulated STS3215.
+- Problems: the pip version of BAM was missing the STS3215 models (had to install from GitHub), BAM needs a specific Python version, and the first chart was hard to read.
