@@ -25,3 +25,10 @@ A week-by-week record of the project (Georgia Tech VIP, Fall 2026).
 - Looked at how the BAM authors built their test rig (arm lengths, weights, mounting).
 - Wrote a script that tries many arm-length and weight combinations on the simulated STS3215.
 - Problems: the pip version of BAM was missing the STS3215 models (had to install from GitHub), BAM needs a specific Python version, and the first chart was hard to read.
+
+## Week 5: Test-rig results (Oct 11)
+
+- Fixed the chart so good and bad setups are easy to tell apart.
+- Tested 35 combinations: arms 5 to 25 cm, weights 50 g to 1 kg.
+- The STS3215 handled almost everything. It only struggled with 1 kg on a 25 cm arm (9.6° of sag).
+- Recommended rig: 10 to 20 cm arms with 100 to 750 g weights.
