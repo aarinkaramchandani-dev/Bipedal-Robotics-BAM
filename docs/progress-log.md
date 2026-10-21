@@ -32,3 +32,8 @@ A week-by-week record of the project (Georgia Tech VIP, Fall 2026).
 - Tested 35 combinations: arms 5 to 25 cm, weights 50 g to 1 kg.
 - The STS3215 handled almost everything. It only struggled with 1 kg on a 25 cm arm (9.6° of sag).
 - Recommended rig: 10 to 20 cm arms with 100 to 750 g weights.
+
+## Week 6: One-command pipeline (Oct 20)
+
+- Built `bam_pipeline.py`: one command checks BAM's model against recordings, fits a new model, and makes charts and a report.
+- Tested it on fake recordings where the true settings were known. The fitted model cut the error from 1.9° to 0.1° and found the hidden settings within 1 to 2%.
