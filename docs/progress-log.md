@@ -37,3 +37,10 @@ A week-by-week record of the project (Georgia Tech VIP, Fall 2026).
 
 - Built `bam_pipeline.py`: one command checks BAM's model against recordings, fits a new model, and makes charts and a report.
 - Tested it on fake recordings where the true settings were known. The fitted model cut the error from 1.9° to 0.1° and found the hidden settings within 1 to 2%.
+
+## Week 7: Recording script (Oct 24 and 25)
+
+- Wrote `record_sts3215.py` to replace BAM's Feetech script. BAM's version didn't work on a Mac, used the wrong voltage (15 V instead of 7.4 V), and left out the arm's weight.
+- Added safety stops (swinging too far, overheating, low battery) and a calibration step so 0° means "hanging straight down".
+- Added a practice mode that uses the simulation instead of a real servo.
+- Made 12 practice recordings and ran them through the pipeline. It picked the right model (m6, 0.42° error).

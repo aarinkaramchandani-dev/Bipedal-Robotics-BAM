@@ -1,0 +1,13 @@
+recording,trajectory,arm_length_m,mass_kg,kp,held_back_for_testing,bundled m1 error (deg),bundled m6 error (deg),fitted m1 error (deg)
+2026-11-04_14h47m02_L15cm_m200g_kp16_up_and_down.json,up_and_down,0.15,0.2,16,True,0.481,0.162,0.338
+2026-11-04_14h47m02_L15cm_m200g_kp8_up_and_down.json,up_and_down,0.15,0.2,8,False,0.828,0.15,0.64
+2026-11-04_14h47m02_L15cm_m200g_kp16_lift_and_drop.json,lift_and_drop,0.15,0.2,16,True,4.148,0.24,0.235
+2026-11-04_14h47m01_L15cm_m200g_kp8_sin_sin.json,sin_sin,0.15,0.2,8,False,0.931,0.475,0.415
+2026-11-04_14h47m02_L15cm_m200g_kp32_sin_time_square.json,sin_time_square,0.15,0.2,32,False,1.197,0.771,0.984
+2026-11-04_14h47m01_L15cm_m200g_kp8_lift_and_drop.json,lift_and_drop,0.15,0.2,8,False,4.177,0.266,0.268
+2026-11-04_14h47m03_L15cm_m200g_kp32_up_and_down.json,up_and_down,0.15,0.2,32,False,0.276,0.156,0.177
+2026-11-04_14h47m02_L15cm_m200g_kp16_sin_time_square.json,sin_time_square,0.15,0.2,16,True,1.385,0.756,1.03
+2026-11-04_14h47m01_L15cm_m200g_kp8_sin_time_square.json,sin_time_square,0.15,0.2,8,False,1.575,0.691,2.786
+2026-11-04_14h47m02_L15cm_m200g_kp32_lift_and_drop.json,lift_and_drop,0.15,0.2,32,False,4.154,0.22,0.283
+2026-11-04_14h47m02_L15cm_m200g_kp32_sin_sin.json,sin_sin,0.15,0.2,32,False,0.499,0.599,0.196
+2026-11-04_14h47m02_L15cm_m200g_kp16_sin_sin.json,sin_sin,0.15,0.2,16,True,0.715,0.575,0.284
