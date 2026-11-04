@@ -44,3 +44,10 @@ A week-by-week record of the project (Georgia Tech VIP, Fall 2026).
 - Added safety stops (swinging too far, overheating, low battery) and a calibration step so 0° means "hanging straight down".
 - Added a practice mode that uses the simulation instead of a real servo.
 - Made 12 practice recordings and ran them through the pipeline. It picked the right model (m6, 0.42° error).
+
+## Week 8: Whole-robot comparison (Nov 2 and 4)
+
+- Built `robot_compare.py`: it gives the simulated robot (BAM on every joint) the same commands the real robot got, then shows how far off each joint is.
+- Made a fake 3-joint arm (shoulder, elbow, wrist) to test it, since our robot isn't built yet.
+- BAM's detailed model (m6) matched about twice as well as the simple one (0.21° vs. 0.43°).
+- Added checks for common setup mistakes (wrong units, mismatched joint names, wrong zero positions). When the elbow was set 4° off on purpose, it caught it.
