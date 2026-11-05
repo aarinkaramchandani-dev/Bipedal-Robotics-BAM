@@ -1,0 +1,21 @@
+[project]
+name = "bipedal-robotics-bam"
+version = "0.1.0"
+description = "Modeling the Feetech STS3215 servo with BAM for a bipedal robot (Georgia Tech VIP, Fall 2026)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "better-actuator-models[mujoco]",
+    "numpy",
+    "matplotlib",
+]
+
+[project.optional-dependencies]
+# Only needed to record a real servo (record_sts3215.py without --practice)
+hardware = ["rustypot>=1.5.0"]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+# The pip release is missing the detailed STS3215 models, so install BAM from GitHub
+better-actuator-models = { git = "https://github.com/Rhoban/bam" }
